@@ -1,0 +1,19 @@
+{
+  "name": "nightreel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/build-worker.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.30.6",
+    "drizzle-orm": "^0.39.3",
+    "vite": "^6.4.0"
+  }
+}
